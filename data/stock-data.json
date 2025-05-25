@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "name": "Watering Can",
+      "inStock": true,
+      "price": "$12.99",
+      "image": "img/placeholder.jpg",
+      "lastUpdated": "25/05/2025, 11:35:14 am"
+    },
+    {
+      "name": "Gardening Gloves",
+      "inStock": false,
+      "price": "$8.99",
+      "image": "img/placeholder.jpg",
+      "lastUpdated": "25/05/2025, 11:35:14 am"
+    },
+    {
+      "name": "Tomato Seeds",
+      "inStock": true,
+      "price": "$4.99",
+      "image": "img/placeholder.jpg",
+      "lastUpdated": "25/05/2025, 11:35:14 am"
+    },
+    {
+      "name": "Garden Shovel",
+      "inStock": true,
+      "price": "$19.99",
+      "image": "img/placeholder.jpg",
+      "lastUpdated": "25/05/2025, 11:35:14 am"
+    }
+  ]
+}

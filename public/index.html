@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow A Garden Stock Tracker</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="garden-bg"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-seedling"></i>
+                <h1>Grow A Garden Stock</h1>
+            </div>
+            <div class="refresh-info">
+                <div class="last-updated" id="lastUpdated">Last updated: Loading...</div>
+                <div class="refresh-timer">
+                    Next refresh in: <span id="refreshTimer">--:--</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="stock-container">
+                <section class="stock-card gear">
+                    <div class="card-header">
+                        <i class="fas fa-tools"></i>
+                        <h2>GEAR STOCK</h2>
+                    </div>
+                    <div class="card-body" id="gearStock">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Loading gear data...</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="stock-card seeds">
+                    <div class="card-header">
+                        <i class="fas fa-seedling"></i>
+                        <h2>SEEDS STOCK</h2>
+                    </div>
+                    <div class="card-body" id="seedsStock">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Loading seeds data...</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="stock-card eggs">
+                    <div class="card-header">
+                        <i class="fas fa-egg"></i>
+                        <h2>EGG STOCK</h2>
+                    </div>
+                    <div class="card-body" id="eggsStock">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Loading eggs data...</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Weather Section -->
+            <div class="weather-section">
+                <div class="weather-header">
+                    <h2>Live Grow a Garden Weather</h2>
+                    <a href="#" class="weather-details-btn">Details</a>
+                </div>
+                <div class="weather-container">
+                    <div class="weather-card" id="weatherCard">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Loading weather data...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <h3>Real-Time Updates</h3>
+                    <p>Data refreshes automatically every 5 minutes</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-star"></i>
+                    <h3>Rarity Indicators</h3>
+                    <p>Rare items are highlighted for quick spotting</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-bell"></i>
+                    <h3>Auto Refresh</h3>
+                    <p>Never miss a stock update with our timer</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Grow A Garden Stock Tracker. Not affiliated with Grow A Garden or Roblox.</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html> 
